@@ -1,0 +1,36 @@
+body {
+    background-color: wheat;
+}
+
+.block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+    margin: 10px auto;
+    background-color: blanchedalmond;
+    border: burlywood 10px solid;
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 30px;
+    width: 90%;
+    text-align: center;
+    margin: 10px auto;
+}
+
+h2 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.pale {
+    font-style: italic;
+    color: rgb(46, 45, 45);
+}
