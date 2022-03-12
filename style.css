@@ -1,8 +1,43 @@
+
+@font-face {
+    font-family: 'Bebas Neue', cursive;
+    src: url("./fonts/BebasNeue-Regular.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Fondamento";
+    src: url("./fonts/Fondamento-Regular.woff");
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Monsterrat";
+    src: url("./fonts/MontserratSubrayada-Regular.woff");
+}
+
+@font-face {
+    font-family: "Carrois";
+    src: url("./fonts/CarroisGothicSC-Regular.woff");
+}
+
+@font-face {
+    font-family: "Cormorant";
+    src: url("./fonts/CormorantUnicase-Medium.woff");
+}
+
+@font-face {
+    font-family: "Kulim";
+    src: url("./fonts/KulimPark-Light.woff");
+}
+
 body {
     background-color: wheat;
+    font-family: "Kulim";
 }
 
 .block {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -16,6 +51,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 90%;
+    margin: 0px auto;
 }
 
 .heading {
@@ -35,6 +72,33 @@ h2 {
     color: rgb(46, 45, 45);
 }
 
+
+.square {
+    width: 100%;
+}
+
+.recourse {
+    height: 50px;
+    width: 300px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(168, 194, 243);
+    cursor: pointer;
+}
+
+button {
+    transition-duration: 0.4s;
+    font-family: 'Carrois';
+    font-size: 20px;
+    color: rgb(3, 26, 70);
+}
+  
+button:hover {
+    background-color: #92e295; /* Green */
+    color: white;
+}
+
+
 @media screen and (max-device-width: 800px) {
     .block {
         min-width: 95%;
@@ -52,4 +116,9 @@ h2 {
     h2 {
         font-size: 50px;
     }
+
+    .recourse {
+        width: 300px;
+    }
+    
 }
