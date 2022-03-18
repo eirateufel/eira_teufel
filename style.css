@@ -111,6 +111,10 @@ button:hover {
     color: white;
 }
 
+.goal {
+    height: 500px;
+}
+
 .green {
     background-color: #a2dd7b;
     color: rgb(29, 60, 61);
