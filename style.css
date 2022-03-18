@@ -111,6 +111,11 @@ button:hover {
     color: white;
 }
 
+.green {
+    background-color: #a2dd7b;
+    color: rgb(29, 60, 61);
+}
+
 .warning {
     font-size: 35px;
     font-weight: bold;
